@@ -1,0 +1,39 @@
+# === Python build / bytecode ===
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# === Test & coverage ===
+.pytest_cache/
+.coverage*
+htmlcov/
+
+# === Virtual env ===
+.venv/
+
+# === SQLite / local DB ===
+*.sqlite*
+*.db
+app.db
+
+# === Local uploads (if any) ===
+uploads/
+backend_py/uploads/
+
+# === Env files ===
+.env
+.env.*.local
+.env.local
+
+# === Logs ===
+*.log
+
+# === OS / Editor ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+
+*firebase-adminsdk*.json

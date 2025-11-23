@@ -1,0 +1,21 @@
+[MASTER]
+ignore=CVS,.git,__pycache__,.tox,.venv,venv
+ignore-patterns=test_.*?py
+
+[MESSAGES CONTROL]
+disable=
+    C0111,  # missing-docstring
+    R0903,  # too-few-public-methods
+    R0913,  # too-many-arguments
+    W0212,  # protected-access
+
+[FORMAT]
+max-line-length=88
+indent-string='    '
+
+[BASIC]
+good-names=i,j,k,ex,Run,_,id,pk
+
+[DESIGN]
+max-args=7
+max-attributes=10
